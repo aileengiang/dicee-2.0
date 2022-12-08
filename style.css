@@ -1,0 +1,94 @@
+html {
+  font-family: 'Gill Sans', sans-serif;
+  font-style: normal;
+  text-align: center;
+  color: #353535;
+}
+
+h1 {
+  font-size: 2.75rem;
+  margin: 75px auto;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+    .dice {flex-flow: column wrap;}
+}
+
+
+#header {
+  text-align: left;
+  margin-left: 5%;
+
+
+}
+#headerBG, #disclaimer {
+  background-color: #6a6a6a;
+  color: #eeeeee;
+  padding: 1%;
+  border-radius: 10px;
+
+}
+
+.red{
+  color: #EC4646;
+}
+
+.blue{
+  color: #0F4392;
+}
+
+.dice, #instructions {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.dice-img {
+  max-width: 225px;
+}
+
+.vs{
+  margin: auto 100px;
+}
+
+#instructions {
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.steps {
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #6a6a6a;
+  margin: 5%;
+  padding: 1% 5%;
+}
+
+.steps>h3 {
+  text-decoration: underline;
+}
+
+#instructions > div {
+  background-color: white;
+  filter: drop-shadow(2px 1px 5px #44444475);
+
+}
+
+#disclaimer > p{
+  margin: 2% 5%;
+}
+
+a > p {
+  color: white;
+text-decoration: underline;
+}
+
+a > p:hover{
+  color:red;
+}
